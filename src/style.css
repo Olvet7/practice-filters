@@ -19,6 +19,7 @@
   }
   
 .body {
+  display: flex;
   margin: 0 auto;
   max-width: 1000px;
   margin-left: 150px;
@@ -56,4 +57,18 @@ img {
 
 .temperament {
   font-weight: bold;
+}
+
+.breed-select {
+  height: 52px;
+  width: 229px;
+  padding: 14px 20px;
+  border-radius: 50px;
+}
+
+.category-select {
+  height: 52px;
+  width: 229px;
+  padding: 14px 20px;
+  border-radius: 50px;
 }
